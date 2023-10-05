@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal protfolio</title>
+    <link rel="stylesheet" href="pf.css" />
+</head>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="#">Rupesh Ningwal</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hero-text">
+                    <img src="logo.jpeg" class="picture" alt="mypic">
+                    <h2 class="hero_title">Hi, it's me Rupesh<p class="hero_desc">I am a web developer and live in city
+                            of Indore India.
+                        </p>
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="about.jpg" class="imageAboutPage" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <h1 class="text-center">About Me</h1>
+                            <ul>
+                                <li>Name: Rupesh Ningwal</li>
+                                <li>Age: 19</li>
+                                <li>Occupation: Web Developer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <ul>
+                            <h1>Exprience</h1>
+                            <li> I have minimum exprience in projects.</li>
+                            <li>And also stock market.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="skill-header"> My Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="html.png" loading="lazy" class="icon icon-card" />
+                <img src="css.png" loading="lazy" class="icon icon-card" />
+                <img src="js.jpeg" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="projects-title">My Recent Project</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="lp.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Landing page</h3>
+                <p class="project-details">
+                    This is a coffee shop front design page.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+    <section class="resume">
+        <div>
+            <h1>Resume Link</h1>
+            <a href="https://drive.google.com/file/d/1Sc7tUPVpIzpHdsNxdlO4qvxZ1ffkE3kO/view?usp=drivesdk">https://drive.google.com/file/d/1Sc7tUPVpIzpHdsNxdlO4qvxZ1ffkE3kO/view?usp=drivesdk</a>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+                        required />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+                        class="input-field" required />
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                        class="input-field" required></textarea>
+                </div>
+                <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+            </div>
+        </div>
+    </section>
+    <div class="socials">
+        <a href="#" target="_blank"><img src="Twitter.webp" alt="Twitter" loading="lazy" class="socicon" /></a>
+        <a href="#" target="_blank"><img src="insta.jpeg" alt="Instagram" loading="lazy" class="socicon" /></a>
+        <a href="#" target="_blank"><img src="linkedin.jpeg" alt="Linkedin" loading="lazy" class="socicon" /></a>
+        <a href="#" target="_blank"><img src="facebook.jpeg" alt="Facebook" loading="lazy" class="socicon" /></a>
+    </div>
+    <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+            Built with &#x2661; by
+            <a href="https://twitter.com/rupeshningwal" target="_blank">Rupesh Ningwal</a>
+        </p>
+    </footer>
+</body>
+
+</html>

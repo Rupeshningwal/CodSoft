@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.navbar{
+   background-color: rgba(227, 160, 26, 0.975);
+  height: 50px;
+  padding: 20px;
+}
+.navbar-brand {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration:none;
+    color:white;
+    margin:10px;
+}
+
+.navbar-nav {
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: right;
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    margin:10px;
+    padding:5px;  
+}
+.bgimage{
+    background:linear-gradient(rgba(16, 41, 47, 0.977), rgba(31, 70, 92, 0.992));
+    height:100vh;
+    background-size:cover;
+    position:relative;
+    padding:1px;
+}
+/* .bgimage:hover{
+    background:rgba(16, 41, 47, 0.977) ;
+} */
+.picture{
+    height:50%;
+    width:50%;
+    /* height:553px;
+    width:450px; */
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: -2px 4px 5px black ;
+    /* transform:translate(600px, 20px) rotate(0deg); */
+    /* transition:top  2s ease-in 5s; */
+}
+.picture:hover{
+    border-radius: 50px;
+    box-shadow: -4px 4px 10px black ;
+}
+.hero_title {
+    font-size: 4.5rem;
+    margin: 30px;
+    /* transform:translate(0px,-306px); */
+}
+.hero_desc {
+    font-size: 3rem;
+    /* transform:translate(0px,-300px)  */
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+     top: 50%;
+    left: 40%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+}
+.imageAboutPage {
+    width: 275px;
+    height: 325px;
+    border-radius: 5px;
+}
+.col-lg-8{
+   
+    font-size: 23px;
+}
+.row {
+    display: flex;
+    margin: 20px 0px 54px 225px;
+}
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px 0;
+    padding: 20px;
+    margin: 10px;
+  }
+  .projects {
+    /* background-color: yellow; */
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+  }
+  .project-container p {
+    padding: 0.4rem;
+  }
+  
+  .project-title {
+    margin-bottom:5px;
+  }
+  
+  .project-details {
+    margin-bottom: 5px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px 0;
+    padding: 20px;
+    margin: 10px;
+  }
+  .resume{
+    text-align: center;
+  }
+  .contact {
+    margin-top: 2rem;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0;
+  }
+  .contact-form-container label {
+    line-height: 2.7em;
+    font-weight: bold;
+    
+  }
+  
+  .contact-form-container textarea {
+    min-height: 5.25rem;
+    font-size: 14px;
+  }
+  
+  .contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px;
+    font-size: 0.875rem;
+    
+  }
+  .input-field::placeholder {
+    padding: 0.5rem;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1f40a3;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight:bold;
+    /* transition:; */
+  }
+  .submit-btn:hover {
+    background-color: lightblue;
+    border: 2px solid yellowgreen;
+    cursor: pointer;
+  }  
+  .socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
+  
+  .socicon {
+    width: 2rem;
+    height: 2rem;
+  }
+  footer {
+    background-color: pink;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
