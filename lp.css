@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    /* box-sizing: border-box; */
+    /* background-color: rgba(93, 36, 9, 0.895);  */
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 10px 30px;
+    position: fixed;
+    text-align: center;
+    background-image: linear-gradient(#321406e4, #321406e4);
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container {
+    /* border:3px solid black; */
+    background-image: url("1.1.jpeg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    /* opacity: 0.5; */
+}
+
+.m2 {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color: rgba(93, 36, 9, 0.895); */
+    padding-top: 150px;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.main {
+    text-transform: uppercase;
+    color: rgba(255, 255, 16, 0.877);
+    margin: 33px;
+    text-align: center;
+
+}
+
+.desc {
+    margin: 20px;
+    color: rgba(249, 249, 249, 0.979);
+    text-align: center;
+
+}
+
+/* 2 part */
+#container {
+    text-align: center;
+    height: 100px;
+    height: 40px;
+    width: 300px;
+    color: rgba(25, 8, 1, 0.973);
+    border: 2px solid black;
+    background-color: rgba(255, 255, 16, 0.877);
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin:9px 0px 35px 20px;
+}
+
+#container:active {
+    background-color: rgb(114, 114, 0);
+}
+
+#content  {
+    color: rgba(255, 255, 16, 0.877);
+    text-transform: uppercase;
+    font-size: 18px;
+     margin: 5px; 
+    cursor: pointer;
+    text-align: center;
+}
+
+#content :active {
+    color: rgba(25, 8, 1, 0.973);
+}
+
+#con h2 {
+    color: rgba(255, 255, 255, 0.925);
+    text-transform: uppercase;
+    font-family: system-ui;
+    text-align: center;
+}
+
+#des {
+    color: rgba(252, 252, 252, 0.667);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* #con h1 {
+    color: rgba(255, 255, 16, 0.877);
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: left;
+    /* padding-left: 8%; 
+
+} */
+
+.card {
+    width: 381px;
+    height: 100vh;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 2px 4px 8px black;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 26px black;
+}
+
+.m3 {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+/* .descr {
+    padding: 0px 2px 20px 2px;
+} */
+
+.up {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.925);
+}
+
+#new {
+    color: rgba(252, 252, 252, 0.667);
+    padding: 10px;
+}
+
+.dic {
+    text-transform: uppercase;
+    color: rgba(255, 255, 16, 0.877);
+    text-decoration-line: overline;
+    cursor: pointer;
+}
+
+.dic:active {
+    color: rgba(25, 8, 1, 0.973);
+}
+
+.has {
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin: 10px;
+}
+
+.rules {
+    text-transform: uppercase;
+    color: rgba(255, 255, 16, 0.877);
+    cursor: pointer;
+    text-align: left;
+    margin: 20px;
+}
+
+.rules:active {
+    color: rgba(25, 8, 1, 0.973);
+}
+
+.part {
+    text-align: center;
+    height: 30px; 
+    width: 300px;
+    color: rgba(25, 8, 1, 0.973);
+    border: 2px solid black;
+    background-color: rgba(255, 255, 16, 0.877);
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 230px;
+}
+.part:active{
+    background-color: rgb(114, 114, 0);
+}
+
+.m5 {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#reserve {
+    color: rgba(255, 255, 16, 0.877);
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 24%;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.type {
+    width: 50%;
+    color: white;
+    background: rgba(50, 20, 6, 0.895);
+    border-radius: 5px;
+}
+
+#ty {
+    margin: 5px;
+    color: rgba(252, 252, 252, 0.667);
+}
+
+.m4 {
+    width: 750px;
+    height: 360px;
+    border-radius: 10px;
+}
+#center{
+    color:rgba(255, 255, 16, 0.877);
+    text-transform:uppercase
+}
+.about{
+    text-align: center;
+    height: 30px; 
+    color: rgba(25, 8, 1, 0.973);
+    border: 2px solid black;
+    background-color: rgba(255, 255, 16, 0.877);
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 230px; 
+    margin: 10px;
+}
+.about:active{
+     background-color:rgb(114, 114, 0);
+}
+#body{
+    color:rgba(252, 252, 252, 0.667);
+    margin: 10px;
+}
+#icon{
+    margin:10px 0px 30px 0px;
+}
+.fa {
+    padding: 12px;
+    margin:1px 16px 14px 17px;
+    text-align: center;
+    text-decoration: none;
+    background-size: 40px;
+    border-radius: 5px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+  .fa-youtube{
+    background-color: rgb(255 0 0);
+    color:rgb(40 40 40);
+  }
+.fa-facebook {
+    background: rgb(59, 89, 152);
+    color: white;
+ }
+ .fa-instagram{
+    background:radial-gradient(circle at 33% 100%,rgb(254, 211, 115) 4%, rgb(241, 82, 69) 30%, rgb(155, 54, 183) 85%, rgb(81, 94, 207));
+    color:rgb(255, 255, 255);
+ }
+ .linkedin{
+    background-color: rgb(39, 75, 155);
+    border-radius: 20px;
+    border: 2px solid rgb(39, 75, 155);
+    color:white;
+    text-decoration: solid;
+    
+ }
+ .whatsapp{
+    background-color:rgb(37 211 102);
+    border-radius:20px;
+    border: 2px solid rgb(37 211 102);
+    color:white;
+    text-decoration: solid;
+ }
+ .telegram{
+    background-color:rgb(0, 136, 204);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 136, 204);
+    color:white;
+    text-decoration: solid;
+ }
+.snapchat{
+    background-color: rgb(255 252 0);
+    border: 2px solid  rgb(255 252 0);
+    padding-bottom: 20px;
+    border-radius: 20px;
+    text-decoration: solid;
+}
+.social button{
+    height: 40px;
+    margin: 20px;
+}
